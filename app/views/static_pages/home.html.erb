@@ -1,6 +1,11 @@
 <% provide(:title, "Home") %>
 
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="text-center jumbotron">
+<%= link_to image_tag("blogging.svg", alt:"Rails logo", class: "img-responsive img-custom"), "http://www.facebook.com", target: "_blank"%>
+    <h1>Welcome to the blog</h1>
+    <h2>
+        This is the home page for the blog created with Ruby on Rails
+    </h2>
+    <%= link_to "Sign up now!", "#", class: "btn btn-lg btn-primary" %>
+</div>
 
-<button class='btn btn-danger'>Submit</button>
