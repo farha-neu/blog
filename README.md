@@ -12,8 +12,8 @@
     2. `rails generate model User name:string email:string`
     3. `rails db:migrate`
 * Saving a record to DB:
-    1. Option 1: `user = User.new(name: 'Farha', email:'farhajw@gmail.com')`
-                 `user.save`
+    1. Option 1: `user = User.new(name: 'Farha', email:'farhajw@gmail.com')`  
+                  `user.save`
     2. Option 2: `User.create(name: 'Farha', email:'farhajw@gmail.com')`
 
 * Destroying a record from DB:
@@ -26,7 +26,7 @@
     4. User.all -> returns an array of users
 
 * Updating a record:
-    1. Option 1: `user.email = "my@my.com"`
+    1. Option 1: `user.email = "my@my.com"`  
                   `user.save`
     2. Option 2: `user.update_attributes(name:"Farha")`
     
