@@ -29,4 +29,6 @@
     1. Option 1: `user.email = "my@my.com"`  
                   `user.save`
     2. Option 2: `user.update_attributes(name:"Farha")`
-    
+ 
+ * Generating a migration:
+   `rails generate migration add_remember_digest_to_users remember_digest:string`
