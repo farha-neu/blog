@@ -32,3 +32,9 @@
  
  * Generating a migration:
    `rails generate migration add_remember_digest_to_users remember_digest:string`
+
+* Content Tag:
+    `<%= content_tag(:div,"Hello", class:"alert alert-danger") %>`
+
+* Paginate: `User.paginate(page:1)` => 30 users by default per page
+    
