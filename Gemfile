@@ -9,7 +9,8 @@ gem 'bcrypt','3.1.11'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'

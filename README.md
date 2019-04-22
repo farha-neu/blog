@@ -38,3 +38,5 @@
 
 * Paginate: `User.paginate(page:1)` => 30 users by default per page
     
+* Mailer generation: `rails generate mailer UserMailer account_activation password_reset`
+* `rails generate model Micropost content:text user:references`
